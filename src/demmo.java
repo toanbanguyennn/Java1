@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class demmo {
     public static void main(String[] args) {
         //cách nhập vào giá trị từ console
-        Scanner scanner = new Scanner(System.in);   
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào 1 từ bất kỳ: ");
         String welcome = scanner.nextLine();
         System.out.println(welcome);
