@@ -13,7 +13,6 @@ public class pyBac1 {
         System.out.println("nhap he so c");
         float c = nhap.nextFloat();
 
-
         float Ketqua = (c - b) / a;
         if (a == 0) {
             if (b == c) {
