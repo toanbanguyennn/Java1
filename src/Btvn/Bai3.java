@@ -9,7 +9,6 @@ public class Bai3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter number:");
         a = scanner.nextInt();
-
         if (Bai3.checkSNT(a)) {
             System.out.println("day la so nguyen to");
 
