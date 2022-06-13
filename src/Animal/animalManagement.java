@@ -26,7 +26,7 @@ public class animalManagement{
             return new Animal(weight,height, gender, color);
         }
 
-        public void displayAnimal(Scanner scanner){
+        public void displayAnimal(){
             for (Animal animal : animals) {
                 if (animal != null) {
                     System.out.println(animal);

@@ -23,7 +23,7 @@ public class TestAnimal {
                         animalManagement.addAnimal(scanner);
                         break;
                     case 2:
-                        animalManagement.displayAnimal(scanner);
+                        animalManagement.displayAnimal();
                         break;
                 }
                 System.out.println("-------------------------");
