@@ -7,7 +7,6 @@ public class DeclareMenu {
             StudentManager studentManager = new StudentManager();
             Scanner scanner = new Scanner(System.in);
             int choice;
-
             //sử dụng do...while để lặp lại yêu cầu menu
             do {
                 System.out.println("-------Menu-------");
@@ -19,7 +18,6 @@ public class DeclareMenu {
                 System.out.println("0. Exit");
                 System.out.println("Enter your choice: ");
                 choice = scanner.nextInt();
-
                 switch (choice) {
                     case 1:
                         studentManager.addStudent(scanner);
@@ -48,7 +46,6 @@ public class DeclareMenu {
             System.out.println("Dose not exist Student have id: " + displayID);
         }
     }
-
         private static void displayEdit(StudentManager studentManager, Scanner scanner) {
             System.out.println("Enter id of Student you want to update: ");
             int editID = scanner.nextInt();
@@ -59,7 +56,6 @@ public class DeclareMenu {
                 System.out.println("Dose not exist Student have id: " + editID);
             }
         }
-
         private static void displayDelete(StudentManager studentManager, Scanner scanner) {
             System.out.println("Enter id of Student you want to delete: ");
             int deleteId = scanner.nextInt();
@@ -70,6 +66,4 @@ public class DeclareMenu {
                 System.out.println("Dose not exist Student have id: " + deleteId);
             }
         }
-
-
 }

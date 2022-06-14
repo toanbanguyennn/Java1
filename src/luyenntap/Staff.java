@@ -6,6 +6,9 @@ public class Staff {
     public double salary;
     public int id;
 
+    public Staff() {
+    }
+
     public int getId() {
         return id;
     }
