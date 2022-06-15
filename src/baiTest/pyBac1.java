@@ -12,15 +12,14 @@ public class pyBac1 {
         float b = nhap.nextFloat();
         System.out.println("nhap he so c");
         float c = nhap.nextFloat();
-
-        float Ketqua = (c - b) / a;
         if (a == 0) {
             if (b == c) {
                 System.out.println("Phuong trinh vo so nghiem");
-            } else if (b != c) {
+            } else  {
                 System.out.println("Phuong trinh vo nghiem");
             }
         } else {
+            float Ketqua = (c - b) / a;
             System.out.println("phuong trinh có nghiệm là : " + Ketqua);
         }
     }
