@@ -10,9 +10,9 @@ public class StaffManager {
         this.staffs = new ArrayList<>();
     }
 
-    public StaffManager(ArrayList<Staff> staffs) {
-        this.staffs = staffs;
-    }
+//    public StaffManager(ArrayList<Staff> staffs) {
+//        this.staffs = staffs;
+//    }
 
     public void addSV() {
 
@@ -63,7 +63,7 @@ public class StaffManager {
             System.out.println("Nhập vào lương mới của Staff đang sửa");
             double salary = input.nextDouble();
             staff.setSalary(salary);
-            staffs.set(index, staff);
+//            staffs.set(index, staff);
         }
     }
 
